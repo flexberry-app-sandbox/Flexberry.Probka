@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probka-графики-отпуска-e",
+  "editForm": "i-i-s-probka-графики-отпуска-e",
+  "external": false,
+  "caption": "Графики отпуска",
+  "name": "IISProbkaГрафикиОтпускаL",
+  "className": "ГрафикиОтпускаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probka-графики-отпуска",
+      "modelProjection": "ГрафикиОтпускаL"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+﻿{
+  "name": "IISProbkaСоставРасчета",
+  "modelName": "i-i-s-probka-состав-расчета",
+  "className": "СоставРасчета",
+  "nameSpace": "IIS.Probka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "взносы",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "всего",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ндфл",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тип",
+      "type": "i-i-s-probka-тип",
+      "flexberryType": "Тип",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расчетныйЛист",
+      "relatedTo": "i-i-s-probka-расчетный-лист",
+      "inverse": "составРасчета"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставРасчетаE",
+      "modelName": "i-i-s-probka-состав-расчета",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "ндфл",
+          "caption": "Ндфл",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "взносы",
+          "caption": "Взносы",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "всего",
+          "caption": "Всего",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

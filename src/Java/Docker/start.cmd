@@ -1,0 +1,1 @@
+docker-compose -p probka-java up -d

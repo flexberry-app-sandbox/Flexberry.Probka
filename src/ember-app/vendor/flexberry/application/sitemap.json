@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "КЭДО",
+  "applicationTitle": "Probka",
+  "items": [
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-probka-графики-отпуска-l",
+          "menuName": null,
+          "caption": "Графики отпуска",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probka-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probka-согласие-на-опд-l",
+          "menuName": null,
+          "caption": "Согласие на опд",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probka-расчетный-лист-l",
+          "menuName": null,
+          "caption": "Расчетный лист",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probka-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-probka-отделы-l",
+          "menuName": null,
+          "caption": "Отделы",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,1 @@
+docker-compose -p probka up -d

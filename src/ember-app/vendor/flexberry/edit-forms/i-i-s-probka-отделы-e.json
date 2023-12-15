@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отделы",
+  "name": "IISProbkaОтделыE",
+  "className": "ОтделыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probka-отделы",
+      "modelProjection": "ОтделыE"
+    }
+  ]
+}

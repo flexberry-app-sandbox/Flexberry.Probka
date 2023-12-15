@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probka-отделы-e",
+  "editForm": "i-i-s-probka-отделы-e",
+  "external": false,
+  "caption": "Отделы",
+  "name": "IISProbkaОтделыL",
+  "className": "ОтделыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probka-отделы",
+      "modelProjection": "ОтделыL"
+    }
+  ]
+}
